@@ -1,24 +1,24 @@
-# [FILL IN: Project Title — a short, descriptive name for your project]
+# [The hospital admission data project Python Environment & Git Workflow Automation - is about to onboard a second team member]
 
-> [FILL IN: One-sentence description — what does this project do, for whom, and in what context?]
+> [A standardized training project designed to automate environment setup using Git and Python, ensuring full reproducibility across different development platforms.]
 
 ---
 
 ## Project Purpose
 
-[FILL IN: 2–4 sentences. What problem does this project address? Why is a reproducible environment important for this specific project? Who would use this repo and why?]
+[This project establishes a robust, standardized development environment to ensure consistent performance across different local and cloud-based systems. It specifically addresses the "it works on my machine" problem by providing automated scripts that verify Python versions and dependency integrity before any code is executed.]
 
 ---
 
 ## Tech Stack
 
 | Tool / Package | Version | Purpose |
-|---|---|---|
-| Python | 3.11.x | Primary language |
-| [FILL IN: Package 1] | [FILL IN: e.g. 2.1.x] | [FILL IN: what it does in this project] |
-| [FILL IN: Package 2] | [FILL IN: e.g. 3.8.x] | [FILL IN: what it does in this project] |
+|Python||3.11.9|
+| Python | 3.11.9 | Primary language |
+| [pandas] | [3.0.1] | [Data manipulation, cleaning, and tabular analysis of hospital admission records.] |
+| [matplotlib] | [3.10.8] | [Creating static charts and visualizations for patient intake trends and bed allocation.] |
 
-*Add a row for each package in your `requirements.txt`. Remove this italicized line when done.*
+
 
 ---
 
@@ -26,13 +26,13 @@
 
 ```bash
 # Clone the repo
-git clone [FILL IN: your repo URL]
-cd [FILL IN: repo name]
+git clone [https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-jumana43567j.git]
+cd [m1-l1-git-workflows-jumana43567j]
 
 # Create and activate venv
 python -m venv .venv
-source .venv/bin/activate        # Mac/Linux / Git Bash
-# .venv\Scripts\activate.bat    # Windows CMD
+#source .venv/bin/activate        # Mac/Linux / Git Bash
+source .venv\Scripts\activate    # Windows CMD
 # .venv\Scripts\Activate.ps1    # Windows PowerShell
 
 # Install dependencies
@@ -65,7 +65,7 @@ bash setup.sh
 └── CHANGELOG.md            ← Record of significant changes
 ```
 
-*Add rows for any additional files or directories your project uses. Remove this italicized line when done.*
+
 
 ---
 
