@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 ## project name : The hospital admission data project 
 
-python -c "import numpy; print(' numpy OK')"
 
 set -euo pipefail
 
