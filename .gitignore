@@ -7,7 +7,10 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Add more patterns here:
-# - Virtual environment: .venv/
-# - Data files: *.csv, *.parquet, *.xlsx, data/raw/
-# - Secrets: .env
-# - OS artifacts: .DS_Store
+.venv/
+*.csv, *.parquet, *.xlsx, data/raw/
+.env
+.DS_Store
+Thumbs.db
+*.key
+*.pem
